@@ -75,6 +75,20 @@ class CalculatorTest extends TestCase
             'wrong smaller'
         );
 
+        $this->assertEquals(
+            [1, 2, 3, 4],
+            $this->calc->sortArray([4, 3, 2, 1]),
+            'wrong sortArray'
+        );
+
+        $this->assertEquals(
+            [1, 2, 3, 4],
+            $this->calc->arrayReverse([4, 3, 2, 1]),
+            'wrong arrayReverse'
+        );
+
+
+
 
     }
 

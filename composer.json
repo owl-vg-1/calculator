@@ -13,5 +13,8 @@
   "scripts": {
     "test": "phpunit --testsuite suite",
     "cover": "phpunit --coverage-html coverage"
+  },
+  "require": {
+    "texlab/mydb": "^0.0.2"
   }
 }

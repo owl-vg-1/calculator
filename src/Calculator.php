@@ -55,4 +55,16 @@ class Calculator
         }
     }
 
+    
+    public function sortArray($array) {
+        return asort($array);
+    }
+
+    public function arrayReverse($array) {
+        return array_reverse($array);
+    }
+
+    
+    
+
 }
