@@ -76,14 +76,14 @@ class CalculatorTest extends TestCase
         );
 
         $this->assertEquals(
-            [1, 2, 3, 4],
-            $this->calc->sortArray([4, 3, 2, 1]),
+            array(1, 2, 3),
+            $this->calc->sortArray(array(3, 1, 2)),
             'wrong sortArray'
         );
 
         $this->assertEquals(
-            [1, 2, 3, 4],
-            $this->calc->arrayReverse([4, 3, 2, 1]),
+            array(1, 2, 3),
+            $this->calc->arrayReverse(array(3, 2, 1)),
             'wrong arrayReverse'
         );
 

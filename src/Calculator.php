@@ -50,18 +50,19 @@ class Calculator
     }
     
     public function smaller($a, $b): bool {
-        if ($a < $b) {
-            return true;
-        }
+        return $a < $b;
+
     }
 
     
     public function sortArray($array) {
-        return asort($array);
+        sort($array);
+        return $array;
     }
 
     public function arrayReverse($array) {
-        return array_reverse($array);
+        $newArry=array_reverse($array);
+        return $newArry;
     }
 
     
